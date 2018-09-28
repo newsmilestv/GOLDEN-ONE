@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="Ru">
+<head>
+ <meta charset="UTF-8">
+ <title>Golden One</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="">
+ <meta name="keywords" content="">
+  <!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  <!-- <link rel="stylesheet" href="reset.css"> -->
+<!--  <link rel="stylesheet" href="style.css">-->
+<!-- <link rel="stylesheet" href="min.style.css"> -->
+<style>
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}}ol,ul{list-style:none}ul li{list-style-type:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}a,a:hover{text-decoration:none;color:#000}html{height:100%}body{height:100%;font:14px/18px 'Times New Roman',Times,sans-serif;background-color:#fff}.left{float:left}.right{float:right}.clearfix::before,.clearfix::after{content:" ";display:table}.clearfix::after{clear:both}.left{float:left}.right{float:right}.text-right{text-align:right}.text-left{text-align:left}.container{max-width:940px;margin:0 auto}.home{height:700px;background:#222 url("img/bg-home.jpg") no-repeat center bottom;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover}.logo{display:inline-block}.head{margin-top:50px}nav{float:right}nav input[type="checkbox"]{display:none}nav input:checked ~ ul{margin-left:0}nav label{display:none;height:5px;width:30px;margin:20px 0 0 20px;border-top:6px solid #fff;border-bottom:17px double #fff;cursor:pointer}nav ul{-webkit-transition:margin-left .5s;-o-transition:margin-left .5s;transition:margin-left .5s}nav ul li{display:inline-block;margin:5px 40px 0 0}nav ul li:last-child{margin-right:0}nav ul a{text-transform:uppercase;font-size:14px;color:#fff}.txt-our-studio{margin-top:205px;text-align:center;color:#fff}.txt-our-studio h2{margin-bottom:50px;font-size:40px;font:40px Arial,sans-serif}.txt-our-studio h1{font:75px Arial,sans-serif;text-transform:uppercase;margin-bottom:60px}button.yellow-button{padding:24px 30px;background:#fed136;color:#fff;border:0;text-transform:uppercase;font-weight:bold;font-size:24px;border-radius:3px}.services-center,.about-us-center{margin-top:120px;text-align:center}h2.services{text-transform:uppercase;font:bold 40px Arial,sans-serif;margin-bottom:20px}.services-center p,.portfolio-center p,.about-us-center p{font-size:16px;color:#777}ul.serices-item{margin:80px 0 110px 0}ul.serices-item li{display:inline-block;margin-right:45px}ul.serices-item li:last-child{margin-right:0}ul.serices-item a{display:block;margin:auto;background:url("img/sprites-services.png") no-repeat;width:76px;height:80px;text-align:center}ul.serices-item a.e-commerce{background-position:5px 0}ul.serices-item a.responsive-web{background-position:-72px 0}ul.serices-item a.web-security{background-position:-146px 0}ul.serices-item h3{margin:25px 0 16px 0;font:bold 18px Arial,sans-serif;color:#222}ul.serices-item p{font:18px Times New Roman;color:#777}.our-portfolio{padding:120px 0;background:#f7f7f7}.portfolio-center{text-align:center}ul.our-portfolio-item{margin-top:80px}ul.our-portfolio-item li{display:inline-block;margin:0 15px 50px 0;background:#fff;text-align:center}ul.our-portfolio-item a{display:block;width:293px;height:305px;background:url("img/our-portfolio-sprites.png") no-repeat}ul.our-portfolio-item a.smart-stationary{background-position:-306px 0}ul.our-portfolio-item a.clever-poster{background-position:-606px 0}ul.our-portfolio-item a.vinyl-record{background-position:-908px 0}ul.our-portfolio-item a.treehouse-template{background-position:-1214px 0}ul.our-portfolio-item a.burned-logo{background-position:-1520px 0}ul.our-portfolio-item h3{margin:30px 0 5px 0;font:bold 18px Arial,sans-serif}ul.our-portfolio-item p{padding-bottom:30px;font:14px Times New Roman;color:#737373}.about-us{margin:80px 0 120px 0}ul.july-december,ul.about-us-img,ul.january-february{display:inline-block}ul.about-us-img{margin:0 40px}ul.july-december li{text-align:right;margin-bottom:376px}ul.july-december li:last-child{margin-bottom:0}h3.month{margin-bottom:12px;text-transform:uppercase;font:bold 18px Arial,sans-serif;color:#222}h3.after-month{margin-bottom:20px;font:bold 18px Arial,sans-serif;color:#222}ul.july-december p,ul.january-february{font:16px Times New Roman;color:#777}ul.january-february{margin-top:290px}ul.january-february li{margin-bottom:352px;text-align:left}ul.about-us-img a{display:block;width:168px;height:168px;margin:0;overflow:hidden;background:url("img/about-us-img.png") no-repeat;border:7px solid #f1f1f1;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%}ul.about-us-img a.january{background-position:-264px 0}ul.about-us-img a.december{background-position:-528px 0}ul.about-us-img a.february{background-position:-792px 0}ul.about-us-img a.our-story{background-position:-1053px 0}ul.about-us-img span{display:inline-block;padding-left:97%;width:4px;height:98px;background:url("img/Vertical-Line.png") no-repeat center center}ul.about-us-img li:last-child span{display:none}#our-amazing{background:#f9f9f9;padding:120px 0 60px 0}ul.team{margin-top:120px}ul.team li{display:inline-block;margin-left:47px;text-align:center}ul.team a.team-link{display:block;width:239px;height:239px;overflow:hidden;background:#111;border:7px solid #fff;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%}ul.team h4{margin:12px 0 8px 0;font:bold 16px Arial,sans-serif;color:#222}ul.team p{font-size:14px;color:#777}.social-list{display:block;margin-top:20px}ul.social>li{display:inline-block;margin:0 10px 0 0}ul.social a{display:block;width:43px;height:43px;background:url("img/social.png") no-repeat}ul.social a.tw{background-position:2px 0}ul.social a.fb{background-position:-41px 0}ul.social a.gp{background-position:-82px 0}ul.social a.pn{background-position:-126px 0}p.after-ul{display:block;margin-top:53px;text-align:center;line-height:25px;font-size:16px;color:#777}.logo-before{display:block;padding:60px 0}ul.before-footer li{display:inline-block;margin-right:10px;width:190px;height:45px;background:url("img/before-footer-sprites.png") no-repeat}ul.before-footer li:last-child{margin-right:0}ul.before-footer li.envato{background-position:28px 0}ul.before-footer li.wordpress{background-position:-167px 0}ul.before-footer li.ae-tuts{background-position:-359px 0}ul.before-footer li.microlancer{background-position:-545px 0}.footer-main{height:677px;padding:110px 0 116px 0;background:url("img/Map-Image.jpg") no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover}.contact-us-header{display:block;text-align:center}.contact-us-header h2{margin-bottom:23px;text-transform:uppercase;font:bold 40px Arial,sans-serif;color:#fff}.contact-us-header p{font-size:16px;color:#777}form{display:block;margin:80px 0 31px 0}form.message,form.message textarea{padding:15px 20px}.input-left input[type="text"]{display:block;margin-right:21em;margin-bottom:30px;width:97%;height:50px;text-transform:uppercase;border-radius:2px}textarea{margin-bottom:30px;text-transform:uppercase;width:40%;height:197px}input[type='submit']{display:inline-block;margin-left:12em;padding:23px 25px;background:#fed136;text-transform:uppercase;font:bold 24px Arial,sans-serif;color:#fff;border:0;border-radius:3px}#footer-bottom{position:relative;padding:20px 0 30px 0}p.copiright{margin-top:30px;font-size:14px;color:#555}ul.social-bottom{position:absolute;top:35%;left:50%}ul.social-bottom li{display:inline-block;margin-right:12px}ul.social-bottom li:last-child{margin-right:0}ul.social-bottom a{display:block;width:41px;height:41px;background:url("img/footer-bottom-sprites.png") no-repeat}ul.social-bottom a.twitter{background-position:1px 0}ul.social-bottom a.facebook{background-position:-40px 0}ul.social-bottom a.pinterest{background-position:-82px 0}ul.social-bottom a.google-pl{background-position:-123px 0}@media screen and (max-width:320px){.head{margin-top:0}div.logo{display:none}nav{margin-left:0;float:none}nav ul{margin-left:-130%}nav ul li{width:100%;display:block;margin:0;text-align:center;padding:10px 0;transition:background .5s ease}nav label{display:block}nav ul li:hover{background:#dee8eb}nav ul li:hover a{color:#000}.txt-our-studio{margin-top:75px}.txt-our-studio h2{font-size:37px}.txt-our-studio h1{font-size:56px}ul.serices-item{margin-bottom:50px}ul.serices-item li{margin:0 8px 30px 0}.our-portfolio{padding:90px 0}ul.our-portfolio-item a{width:287px}h2.services{font-size:35px;margin-bottom:17px}ul.our-portfolio-item{margin-top:50px}ul.our-portfolio-item li{margin:0 0 50px 8px}ul.our-portfolio-item p{padding-bottom:20px}.about-us{margin-bottom:0}.about-us-center{margin-top:100px}ul.july-december li{margin-bottom:50px}ul.about-us-img{margin:60px 0 0 60px}ul.january-february{margin-top:120px}ul.january-february li{margin-bottom:70px}ul.team{margin-top:50px}ul.team li{margin:0 0 30px 30px}ul.social{margin-right:30px}p.after-ul{margin-top:0;line-height:22px;font-size:15px}ul.before-footer li{margin-bottom:10px}.logo-before{padding:30px 0 30px 47px}.input-left{width:100%}.input-left input[type="text"]{width:100%}textarea{width:83%;margin-bottom:17px}input[type='submit']{margin-left:0}p.copiright{margin:10px 0 0 30px}ul.social-bottom{top:90%;left:13%}}@media screen and (min-width:321px) and (max-width:480px){.head{margin-top:0}div.logo{display:none}nav{margin-left:0;float:none}nav ul{margin-left:-130%}nav ul li{width:100%;display:block;margin:0;text-align:center;padding:10px 0;transition:background .5s ease}nav label{display:block}nav ul li:hover{background:#dee8eb}nav ul li:hover a{color:#000}.txt-our-studio{margin-top:75px}.txt-our-studio h2{font-size:37px}.txt-our-studio h1{font-size:56px}ul.serices-item{margin-bottom:50px}ul.serices-item li{margin:0 8px 30px 0}.our-portfolio{padding:90px 0}ul.our-portfolio-item a{width:287px}h2.services{font-size:35px;margin-bottom:17px}ul.our-portfolio-item{margin-top:50px}ul.our-portfolio-item li{margin:0 0 50px 8px}ul.our-portfolio-item p{padding-bottom:20px}.about-us{margin-bottom:0}.about-us-center{margin-top:100px}ul.july-december li{margin-bottom:50px}ul.about-us-img{margin:60px 0 0 60px}ul.january-february{margin-top:120px}ul.january-february li{margin-bottom:70px}ul.team{margin-top:50px}ul.team li{margin:0 0 30px 30px}ul.social{margin-right:30px}p.after-ul{margin-top:0;line-height:22px;font-size:15px}ul.before-footer li{margin-bottom:10px}.logo-before{padding:30px 0 30px 47px}.input-left{width:100%}.input-left input[type="text"]{width:100%}textarea{width:83%;margin-bottom:17px}input[type='submit']{margin-left:0}p.copiright{margin:10px 0 0 30px}ul.social-bottom{top:90%;left:13%}}@media screen and (min-width:481px) and (max-width:600px){.head{margin-top:30px}.services-center{margin-top:100px}ul.serices-item li{margin:0 7px 20px 0}.our-portfolio{padding:100px 0}ul.our-portfolio-item a{width:245px}.about-us-center{margin-top:90px}ul.july-december{margin-bottom:30px}ul.july-december li,ul.january-february li{margin-bottom:200px}ul.about-us-img{margin:0 0 0 80px}ul.team{margin-top:100px}ul.team li{margin:0 0 30px 0}.input-left{width:100%}.input-left input[type="text"]{width:100%}textarea{width:92%;margin-bottom:17px}input[type='submit']{margin-left:0}}@media screen and (min-width:601px) and (max-width:768px){ul.serices-item li{margin:0 7px 20px 0}ul.team li{margin-left:0;margin-bottom:30px}.input-left{width:100%}.input-left input[type="text"]{width:100%}textarea{width:94%;margin-bottom:17px}input[type='submit']{margin-left:8em}}@media screen and (min-width:769px) and (max-width:850px){.input-left{width:50%}.input-left input[type="text"]{width:93%}textarea{width:40%;margin-bottom:17px}input[type='submit']{margin-left:10em}}
+
+</style>
+ </head>
+
+<body>
+
+<div id="wrapper">
+  <!-- HEADER BEGINER -->
+  <header>
+    <div class="home">
+    <div class="container clearfix">
+      <div class="head">
+      <div class="logo">
+        <img src="img/Logo.png" alt="image">
+      </div>
+      <nav>
+        <input type="checkbox" id="btnMenu">
+        <label for="btnMenu"></label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div class="txt-our-studio">
+      <h2>Welcome To Our Studio!</h2>
+      <h1>It’s nice to Meet you</h1>
+      <button class="yellow-button">Tell Me More</button>
+      </div>
+    </div>
+    </div>
+  </header>
+<!-- HEADER END -->
+
+<!-- SERVICES BEGINER -->
+<div class="container">
+  <div class="services-center">
+    <h2 class="services">Services</h2>
+    <p>Proin iaculis purus consequat sem cure.</p>
+    <ul class="serices-item">
+      <li>
+        <a href="#" class="e-commerce"></a>
+        <h3>E-Commerce</h3>
+        <p>Proin iaculis purus consequat sem cure<br>
+           digni ssim. Donec porttitora entum<br>suscipit</p>
+      </li>
+      <li>
+        <a href="#" class="responsive-web"></a>
+        <h3>Responsive Web</h3>
+        <p>Proin iaculis purus consequat sem cure<br>
+           digni ssim. Donec porttitora entum<br>suscipit</p>
+      </li>
+      <li>
+        <a href="#" class="web-security"></a>
+        <h3>Web Security</h3>
+        <p>Proin iaculis purus consequat sem cure<br>
+           digni ssim. Donec porttitora entum<br>suscipit</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- OUR PORTFOLIO BEGINER -->
+<div class="our-portfolio">
+  <div class="container">
+    <div class="portfolio-center">
+      <h2 class="services">Our portfolio</h2>
+      <p>Proin iaculis purus consequat sem cure.</p>
+    </div>
+    <ul class="our-portfolio-item">
+      <li>
+        <a href="#" class="ebony-ivory"></a>
+        <h3>Ebony & Ivory</h3>
+        <p>Branding</p>
+      </li>
+      <li>
+        <a href="#" class="smart-stationary"></a>
+        <h3>Smart Stationary</h3>
+        <p>Print Design</p>
+      </li>
+      <li>
+        <a href="#" class="clever-poster"></a>
+        <h3>Clever Poster</h3>
+        <p>Print Design</p>
+      </li>
+      <li>
+        <a href="#" class="vinyl-record"></a>
+        <h3>Vinyl Record</h3>
+        <p>Product Mock-Up</p>
+      </li>
+      <li>
+        <a href="#" class="treehouse-template"></a>
+        <h3>Treehouse Template</h3>
+        <p>Web Design</p>
+      </li>
+      <li>
+        <a href="#" class="burned-logo"></a>
+        <h3>Burned Logo</h3>
+        <p>Branding</p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- OUR PORTFOLIO END -->
+
+<!-- ABOUT US BEGINER -->
+ <div class="container clearfix">
+     <div class="about-us-center">
+            <h2 class="services">About Us</h2>
+            <p>Proin iaculis purus consequat sem cure.</p>
+     </div>
+     <div class="about-us">
+
+       <ul class="july-december left">
+         <li>
+           <h3 class="month">July 2010</h3>
+           <h3 class="after-month">Our Humble Beginnings</h3>
+           <p>Proin iaculis purus consequat sem cure<br>
+              digni ssim. Donec porttitora entum suscipit<br>
+              aenean rhoncus posuere odio in tincidunt. Proin<br>
+              iaculis purus consequat sem cure digni<br>
+              ssim. Donec porttitora entum suscipit.</p>
+         </li>
+         <li>
+           <h3 class="month">December 2012</h3>
+           <h3 class="after-month">Enter The Dark Days</h3>
+           <p>Proin iaculis purus consequat sem cure<br>
+              digni ssim. Donec porttitora entum suscipit<br>
+              aenean rhoncus posuere odio in tincidunt. Proin<br>
+              iaculis purus consequat sem cure digni.</p>
+         </li>
+       </ul>
+
+       <ul class="about-us-img left">
+         <li><a href="#">&nbsp;</a><span></span></li>
+         <li><a href="#" class="january">&nbsp;</a><span></span></li>
+         <li><a href="#" class="december">&nbsp;</a><span></span></li>
+         <li><a href="#" class="february">&nbsp;</a><span></span></li>
+         <li><a href="#" class="our-story">&nbsp;</a><span></span></li>
+      </ul>
+
+       <ul class="january-february">
+         <li>
+           <h3 class="month">January 2011</h3>
+           <h3 class="after-month">Facing Startup Battles</h3>
+           <p>Proin iaculis purus consequat sem cure<br>
+              digni ssim. Donec porttitora entum suscipit<br>
+              aenean rhoncus posuere odio in tincidunt. Proin<br>
+              iaculis purus consequat sem cure digni<br>
+              ssim. Donec porttitora entum suscipit aenean<br>
+              rhoncus posuere odio in tincidunt.</p>
+         </li>
+         <li>
+           <h3 class="month">February 2014</h3>
+           <h3 class="after-month">EOur Triumph</h3>
+           <p>Proin iaculis purus consequat sem cure<br>
+              digni ssim. Donec porttitora entum suscipit<br>
+              aenean rhoncus posuere odio in tincidunt. Proin<br>
+              iaculis purus consequat sem cure digni<br>
+              ssim. Donec porttitora entum suscipit aenean.</p>
+         </li>
+       </ul>
+     </div>
+
+
+</div>
+<!-- ABOUT US END -->
+
+<!-- OUR AMAZING TEAM BEGINER -->
+<div id="our-amazing">
+  <div class="container clearfix">
+    <div class="portfolio-center">
+      <h2 class="services">our amazing team</h2>
+      <p>Proin iaculis purus consequat sem cure.</p>
+    </div>
+      <div class="amazing-team">
+        <ul class="team">
+          <li>
+            <a href="" class="team-link"></a>
+            <h4>Kimberly Thompson</h4>
+            <p>Marketer</p>
+            <div class="social-list">
+            <ul class="social">
+              <li><a href="" class="tw">&nbsp;</a></li>
+              <li><a href="" class="fb">&nbsp;</a></li>
+              <li><a href="" class="pn">&nbsp;</a></li>
+            </ul>
+            </div>
+          </li>
+          <li>
+            <a href="" class="team-link"></a>
+            <h4>Rico Massimo</h4>
+            <p>Coder</p>
+            <div class="social-list">
+              <ul class="social">
+                <li><a href="" class="tw">&nbsp;</a></li>
+                <li><a href="" class="fb">&nbsp;</a></li>
+                <li><a href="" class="gp">&nbsp;</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li>
+            <a href="" class="team-link"></a>
+            <h4>Uku Mason</h4>
+            <p>Graphic Designer</p>
+            <div class="social-list">
+              <ul class="social">
+                <li><a href="" class="fb">&nbsp;</a></li>
+                <li><a href="" class="pn">&nbsp;</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <p class="after-ul">
+          Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit<br>
+                 aenean rhoncus posuere odio in tincidunt proin iaculis.
+        </p>
+      </div>
+  </div>
+</div>
+
+<!-- OUR AMAZING TEAM END -->
+
+<!-- LOGO BEFOR FOOTER BEGINER -->
+
+<div id="logo-before-footer">
+  <div class="container">
+    <div class="logo-before">
+      <ul class="before-footer">
+        <li class="envato"></li>
+        <li class="wordpress"></li>
+        <li class="ae-tuts"></li>
+        <li class="microlancer"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- LOGO BEFORE FOOTER END -->
+
+<!-- FOOTER BEGINER -->
+<footer>
+  <div class="footer-main">
+    <div class="container clearfix">
+      <div class="contact-us-header">
+        <h2>Contact us</h2>
+        <p>Proin iaculis purus consequat sem cure.</p>
+      </div>
+      <form class="message" action="form.php" method="post">
+      <div class="input-left left">
+        <input type="text" name="name" placeholder="your Name *">
+        <input type="text" name="email" placeholder="your e-mail *">
+        <input type="text" name="subject" placeholder="subject*" >
+      </div>
+      <div>
+        <textarea name="yourmessage" rows="0" cols="0" placeholder="Your message *"></textarea>
+      </div>
+        <input type="submit" name="" value="Send Message">
+      </form>
+    </div>
+  </div>
+<!-- FOOTER BOTTOM BEGINER -->
+
+<div id="footer-bottom">
+  <div class="container clearfix">
+    <p class="copiright">© Copyright 2014 FreebiesXpress.com</p>
+    <ul class="social-bottom right">
+      <li><a href="#" class="twitter"></a></li>
+      <li><a href="#" class="facebook"></a></li>
+      <li><a href="#" class="pinterest"></a></li>
+      <li><a href="#" class="google-pl"></a></li>
+    </ul>
+  </div>
+</div>
+<!-- FOOTER BOTTOM END   -->
+</footer>
+
+
+<!-- FOOTER END -->
+</div>
+</body>
+</html>
